@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-05-order-hystrix-demo" />
+        <module name="springcloud-04-order-ribbon-demo" />
+        <module name="springcloud-06-order-ms-demo" />
+        <module name="springcloud-02-order-service-demo" />
+        <module name="springcloud-02-order-service-2-demo" />
+        <module name="springcloud-03-order-feign-demo" />
+        <module name="springcloud-01-eureka-server-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-04-eureka-server-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-01-eureka-server-demo" options="" />
+      <module name="springcloud-02-order-service-demo" options="" />
+      <module name="springcloud-03-order-feign-demo" options="" />
+      <module name="springcloud-04-eureka-server-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
